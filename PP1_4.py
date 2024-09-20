@@ -22,7 +22,7 @@ def q3():
 def q4():
   #Write Assignment code here
   student1 = input("Input a student: ")
-  student2 = input("Input another student")
+  student2 = input("Input another student: ")
   print(f"Your students are {student1} and {student2}")
 
 
