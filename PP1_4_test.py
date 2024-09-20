@@ -15,7 +15,7 @@ def test_q1_1(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  PP1_4.input = mock_input
+  input = mock_input
   
   PP1_4.q1()
   captured = capsys.readouterr()
@@ -34,7 +34,7 @@ def test_q1_1(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  PP1_4.input = mock_input
+  input = mock_input
   
   PP1_4.q1()
   captured = capsys.readouterr()
@@ -53,7 +53,7 @@ def test_q2_1(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  PP1_4.input = mock_input
+  input = mock_input
 
   PP1_4.q2()
   captured = capsys.readouterr()
@@ -72,7 +72,7 @@ def test_q2_2(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  PP1_4.input = mock_input
+  input = mock_input
 
   PP1_4.q2()
   captured = capsys.readouterr()
@@ -91,7 +91,7 @@ def test_q3_1(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  PP1_4.input = mock_input
+  input = mock_input
 
   PP1_4.q3()
   captured = capsys.readouterr()
@@ -110,7 +110,7 @@ def test_q3_2(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  PP1_4.input = mock_input
+  input = mock_input
 
   PP1_4.q3()
   captured = capsys.readouterr()
@@ -129,7 +129,7 @@ def test_q4_1(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  PP1_4.input = mock_input
+  input = mock_input
 
   PP1_4.q4()
   captured = capsys.readouterr()
@@ -148,7 +148,7 @@ def test_q4_2(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  PP1_4.input = mock_input
+  input = mock_input
 
   PP1_4.q4()
   captured = capsys.readouterr()
