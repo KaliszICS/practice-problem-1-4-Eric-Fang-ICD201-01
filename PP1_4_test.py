@@ -15,7 +15,7 @@ def test_q1_1(capsys):
   def mock_input(s):
     print(s, end='')
     return input_values.pop(0)
-  input = mock_input
+  PP1_4.input = mock_input
   
   PP1_4.q1()
   captured = capsys.readouterr()
