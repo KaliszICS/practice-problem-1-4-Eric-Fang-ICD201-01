@@ -2,7 +2,7 @@
   Lesson: Input and F Strings
   Author: Eric Fang
   Date Created: September 19th, 2024
-  Date Last Modified: September 19th, 2024
+  Date Last Modified: September 20th, 2024
 '''
 
 def q1():
